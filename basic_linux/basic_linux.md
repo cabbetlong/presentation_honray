@@ -11,7 +11,7 @@
     - [主要的发行版](https://distrowatch.com/dwres.php?resource=popularity)：redhat系: CentOS、fedora、gentoo等；debian系: ubuntu等；Arch Linux: **manjaro**
 
 - 文件系统
-    - 目录结构
+    - 目录结构  
     ![](http://www.runoob.com/wp-content/uploads/2014/06/003vPl7Rty6E8kZRlAEdc690.jpg)
         > - / 根目录
         > - /bin 所有用户命令目录
