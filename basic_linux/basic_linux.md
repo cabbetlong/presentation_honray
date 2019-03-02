@@ -3,7 +3,7 @@
 - Linux
     - Linux Logo    
     ![](https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg)
-    - Linux系统诞生于1991年，由芬兰大学上[Linus Torvalds](https://zh.wikipedia.org/wiki/%E6%9E%97%E7%BA%B3%E6%96%AF%C2%B7%E6%89%98%E7%93%A6%E5%85%B9)和后来陆续加入的众多爱好者共同开发完成
+    - Linux系统诞生于1991年，由芬兰大学上[Linus Torvalds](https://baike.baidu.com/item/%E6%9E%97%E7%BA%B3%E6%96%AF%C2%B7%E6%9C%AC%E7%BA%B3%E7%AC%AC%E5%85%8B%E7%89%B9%C2%B7%E6%89%98%E7%93%A6%E5%85%B9/1034429?fromtitle=Linus%20Torvalds&fromid=9336769&fr=aladdin)和后来陆续加入的众多爱好者共同开发完成
     ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg/220px-LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg)
     - Linux是一个在网络上发起并维护的操作系统，天生具有服务器属性
     - Linux是一个开源软件
@@ -11,10 +11,21 @@
     - [主要的发行版](https://distrowatch.com/dwres.php?resource=popularity)：redhat系: CentOS、fedora、gentoo等；debian系: ubuntu等；Arch Linux: **manjaro**
 
 - 文件系统
-    - 目录结构:
+    - 目录结构
+    ![](http://www.runoob.com/wp-content/uploads/2014/06/003vPl7Rty6E8kZRlAEdc690.jpg)
         > - / 根目录
-        > - home 用户目录
-        > - 
+        > - /bin 所有用户命令目录
+        > - /boot 系统启动文件目录
+        > - /dev 外部设备存放目录
+        > - /etc 系统配置文件存放目录
+        > - home 用户目录，一个用户一个home目录
+        > - /lib 系统基本动态链接库目录
+        > - /lost+found 非法关机产生的文件存放目录
+        > - /media 自动识别设备（U盘、光驱等）挂载目录
+        > - /mnt 临时挂载目录
+        > - /root root用户目录
+        > - /usr 应用程序安装目录
+        > - /usr/bin 系统用户命令存放目录
     - 文件属性
     `-rw-r--r-- 1 cabbet cabbet 824 3月   2 19:05 basic_linux.md`
         > - -rw-r--r--
