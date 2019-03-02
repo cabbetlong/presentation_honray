@@ -2,7 +2,7 @@
 
 - Linux
     - Linux Logo
-    ![](./images/OS-Linux-icon.png)
+    ![](http://pngimg.com/uploads/linux/linux_PNG1.png)
     - Linux系统诞生于1991年，由芬兰大学上[Linus Torvalds](https://zh.wikipedia.org/wiki/%E6%9E%97%E7%BA%B3%E6%96%AF%C2%B7%E6%89%98%E7%93%A6%E5%85%B9)和后来陆续加入的众多爱好者共同开发完成
     ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg/220px-LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg)
     - Linux是一个在网络上发起并维护的操作系统，天生具有服务器属性
