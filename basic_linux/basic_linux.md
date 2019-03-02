@@ -39,7 +39,15 @@
         > - 后缀名没有特殊含义（一些约定俗称的后缀除外）
         > - 一些特殊的符号 * ? 等均可用于文件和目录名，只有 / 除外
         > - 没有盘符的概念，只有硬盘挂载点
-    - 常用命令：
+- 常用命令：
+    - 包管理命令
+        > - debian系: apt
+        > - redhat系: yum
+        > - arch系: pacman, yaourt
+    - 帮助命令
+        > - man, info, help 帮助命令
+        > - [tldr](https://github.com/tldr-pages/tldr)
+    - 文件目录
         > - ls list命令
         > - mkdir 创建目录
         > - cd 切换目录
@@ -49,12 +57,14 @@
         > - rm 删除文件或目录
         > - touch 创建文件
         > - cat, tac, less, more, head, tial 文件内容查看
-        > - 链接命令
+        > - ln 链接命令
         > - find, locate 文件搜索
         > - which, whereis 搜索命令所在的目录
         > - grep 搜索文件内容
-        > - man, info, help 帮助命令
-        > - useradd, passwd
+    - 用户相关
+        > - useradd 新增用户
+        > - passwd 更改密码
         > - who, w 查看用户
         > - last, lastlog 用户登录信息
+    - 系统相关
         > - shutdow, reboot, poweroff
