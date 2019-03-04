@@ -29,24 +29,33 @@
     - 文件属性
     `-rw-r--r-- 1 cabbet cabbet 824 3月   2 19:05 basic_linux.md`
         > - -rw-r--r--
-         >    1) -文件类型(-:二进制文件; d:目录; l:软连接文件)
-         >    2) rw- r-- r--(文件权限:所有者、所属组、其他人; r:读, w:写, x:执行)
+        >    1) -文件类型(-:二进制文件; d:目录; l:软连接文件)
+        >    2) rw- r-- r--(文件权限:所有者、所属组、其他人; r:读, w:写, x:执行)
         > - 1: 文件链接数
         > - cabbet cabbet: 创建者 所属组
         > - 824: 文件大小(ls -h)
-        > - 2 19:05: 文件修改时间
+        > - 3月   2 19:05: 文件修改时间
     - 与window文件的一些区别
         > - 后缀名没有特殊含义（一些约定俗称的后缀除外）
         > - 一些特殊的符号 * ? 等均可用于文件和目录名，只有 / 除外
         > - 没有盘符的概念，只有硬盘挂载点
+    - 路径相关:
+        > - / 表示根目录
+        > - ~ 表示 /home/CurrentUser
+        > - ./ 表示当前目录
+        > - .. 表示当前目录上层目录
 - 常用命令：
+    - 命令常见格式
+        `command [-options] [params]`
+        eg: `ls -a /doc`
+        > - 当有多个选项时，可以合并: `ls -ah /doc`
+        > - 简化option: -a 等于 -all
     - 包管理命令
         > - debian系: apt
         > - redhat系: yum
         > - arch系: pacman, yaourt
     - 帮助命令
-        > - man, info, help 帮助命令
-        > - [tldr](https://github.com/tldr-pages/tldr)
+        > - man, info, help, [tldr](https://github.com/tldr-pages/tldr) 帮助命令
     - 文件目录
         > - ls list命令
         > - mkdir 创建目录
@@ -56,15 +65,19 @@
         > - mv 移动文件或目录
         > - rm 删除文件或目录
         > - touch 创建文件
-        > - cat, tac, less, more, head, tial 文件内容查看
+        > - cat, ![bat](https://github.com/sharkdp/bat), tac, less, more, head, tial 文件内容查看
         > - ln 链接命令
         > - find, locate 文件搜索
         > - which, whereis 搜索命令所在的目录
         > - grep 搜索文件内容
+        > - chown 更改文件所有者
     - 用户相关
-        > - useradd 新增用户
+        > - useradd, userdel 新增、删除用户
         > - passwd 更改密码
         > - who, w 查看用户
         > - last, lastlog 用户登录信息
+    - 网络相关
+        > - ip addr 查看网卡信息
+        > - ping 
     - 系统相关
         > - shutdow, reboot, poweroff
