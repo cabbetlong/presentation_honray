@@ -65,7 +65,7 @@
         > - mv 移动文件或目录
         > - rm 删除文件或目录
         > - touch 创建文件
-        > - cat, ![bat](https://github.com/sharkdp/bat), tac, less, more, head, tial 文件内容查看
+        > - cat, [bat](https://github.com/sharkdp/bat), tac, less, more, head, tial 文件内容查看
         > - ln 链接命令
         > - find, locate 文件搜索
         > - which, whereis 搜索命令所在的目录
@@ -81,3 +81,7 @@
         > - ping 
     - 系统相关
         > - shutdow, reboot, poweroff
+- 常用第三方软件
+    - [Vim](https://coolshell.cn/articles/5426.html)
+    
+    ![](http://www.runoob.com/wp-content/uploads/2015/10/vi-vim-cheat-sheet-sch.gif)
