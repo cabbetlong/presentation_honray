@@ -85,3 +85,5 @@
     - [Vim](https://coolshell.cn/articles/5426.html)
     
     ![](http://www.runoob.com/wp-content/uploads/2015/10/vi-vim-cheat-sheet-sch.gif)
+    - zsh & [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+    - [tmux](https://github.com/tmux/tmux)
