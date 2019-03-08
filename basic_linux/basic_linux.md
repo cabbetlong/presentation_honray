@@ -18,7 +18,7 @@
         > - /boot 系统启动文件目录
         > - /dev 外部设备存放目录
         > - /etc 系统配置文件存放目录
-        > - home 用户目录，一个用户一个home目录
+        > - /home 用户目录，一个用户一个home目录
         > - /lib 系统基本动态链接库目录
         > - /lost+found 非法关机产生的文件存放目录
         > - /media 自动识别设备（U盘、光驱等）挂载目录
@@ -27,6 +27,7 @@
         > - /usr 应用程序安装目录
         > - /usr/bin 系统用户命令存放目录
     - 文件属性
+
     `-rw-r--r-- 1 cabbet cabbet 824 3月   2 19:05 basic_linux.md`
         > - -rw-r--r--
         >    1) -文件类型(-:二进制文件; d:目录; l:软连接文件)
@@ -67,9 +68,9 @@
         > - touch 创建文件
         > - cat, [bat](https://github.com/sharkdp/bat), tac, less, more, head, tial 文件内容查看
         > - ln 链接命令
-        > - find, locate 文件搜索
+        > - find, locate, [fzf](https://github.com/junegunn/fzf) 文件搜索
         > - which, whereis 搜索命令所在的目录
-        > - grep 搜索文件内容
+        > - grep, [ag](https://github.com/ggreer/the_silver_searcher) 搜索文件内容
         > - chown 更改文件所有者
     - 用户相关
         > - useradd, userdel 新增、删除用户
@@ -87,3 +88,7 @@
     ![](http://www.runoob.com/wp-content/uploads/2015/10/vi-vim-cheat-sheet-sch.gif)
     - zsh & [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
     - [tmux](https://github.com/tmux/tmux)
+
+- 学习资源推荐
+    - [鸟哥Linux私房菜](http://cn.linux.vbird.org/)
+    - [兄弟连LInux视频](https://www.bilibili.com/video/av18156598?from=search&seid=8675515860890405969)
